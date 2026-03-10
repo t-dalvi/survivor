@@ -623,7 +623,3 @@ export default function ImmunityChallenge() {
     </div>
   );
 }
-
-function cn(...inputs: any[]) {
-  return inputs.filter(Boolean).join(' ');
-}
